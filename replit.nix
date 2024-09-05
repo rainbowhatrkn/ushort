@@ -1,3 +1,6 @@
 {pkgs}: {
-  deps = [ ];
+  deps = [
+    pkgs.docker
+    pkgs.unzipNLS
+   ];
 }
